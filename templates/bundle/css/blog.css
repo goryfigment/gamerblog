@@ -1,0 +1,113 @@
+body {
+    background: #dfdfdf;
+    color: #323232;
+}
+
+header {
+    background: #0f0f0f;
+}
+
+h1, h2 {
+    font-size: 20px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+#trailer-wrapper {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#trailer-wrapper section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+#body-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#affiliate-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+}
+
+#affiliate-wrapper img {
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+#affiliate-wrapper h5 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+section img {
+    max-width: 640px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*TABLE*/
+table {
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 40px 0;
+            box-shadow: rgba(0, 0, 0, 0.15) 0 0 40px 0;
+    background-color: rgb(57, 57, 57);
+    border-radius: 4px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+table thead {
+    font-size: 15px;
+    color: #9baaf0;
+    background-color: #2d2c2c;
+    white-space: nowrap;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+table tbody {
+    font-size: 15px;
+    color: #a5a5a5;
+    line-height: 1.4;
+    background-color: #151515;
+    white-space: nowrap;
+}
+
+table td {
+    display: table-cell;
+    padding: 8px;
+}
+
+table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+/*TABLE*/

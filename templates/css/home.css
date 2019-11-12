@@ -1,0 +1,95 @@
+h3 {
+    font-size: 15px;
+    margin: 15px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+#banner-wrapper {
+    height: 240px;
+    position: relative;
+    background: #830101;
+    border-bottom: 2px solid #f64c4c;
+    border-top: 2px solid #f64c4c;
+}
+
+#banner-wrapper img:nth-child(1) {
+    height: 170px;
+    opacity: 0.5;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 18px;
+}
+
+#banner-wrapper img:nth-child(2) {
+    height: 144px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50px;
+}
+
+/*Coming soon*/
+#coming-soon {
+    display: flex;
+    padding: 10px 30px;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+}
+
+.preorder-list {
+    cursor: pointer;
+}
+
+.preorder-list img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.preorder-list h2 {
+    margin: 6px 0 0 0;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.preorder-list time {
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.preorder-list p {
+    margin: 0;
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Coming soon*/
+
+/*CONTENT COMING SOON*/
+#content-coming-soon-wrapper {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content-coming-soon {
+    font-size: 35px;
+    text-align: center;
+}
+
+#content-message {
+    text-align: center;
+    font-size: 12px;
+}
+/*CONTENT COMING SOON*/

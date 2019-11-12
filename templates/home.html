@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rise Up Gamers</title>
+    <meta name="description" content="The latest gaming news and reviews, covering upcoming games, specific guides, and much more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Solomon Padilla">
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/riseupgamers.ico' %}" />
+</head>
+<body>
+    <%= require('html-loader!./partial/header.html') %>
+
+    <div id="banner-wrapper">
+        <img src="{% static 'bundle/assets/riseupgamers/character.png' %}" />
+        <img src="{% static 'bundle/assets/riseupgamers/riseupgamers-logo.png' %}" />
+    </div>
+
+    <section>
+        <h3>Games Coming Soon</h3>
+
+        <div id="coming-soon">
+            <div class="preorder-list">
+                <a href="/pokemon-sword-pokemon-shield">
+                    <img src="{% static 'bundle/assets/pokemon/sword&shield.jpg' %}" />
+                    <h2>Pokemon Sword & Shield</h2>
+                    <time>This <b>Friday</b>, November 15, 2015</time>
+                    <p>System: Nintendo Switch</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="content-coming-soon-wrapper">
+        <h3 id="content-coming-soon">More Content Coming Soon</h3>
+        <p id="content-message">This website was recently created we are in the progress of releasing information, guides, etc.</p>
+    </section>
+
+    <%= require('html-loader!./partial/footer.html') %>
+</body>
+</html>

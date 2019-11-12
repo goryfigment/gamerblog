@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rise Up Gamers</title>
+    <meta name="description" content="The latest gaming news and reviews, covering upcoming games, specific guides, and much more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/riseupgamers.ico' %}" />
+</head>
+<body>
+    <%= require('html-loader!./partial/header.html') %>
+    <main>
+        <section>
+            <h1>Rise Up Gamers</h1>
+
+            <p>This website is created by a gamer and as gamers we need to rise up from this oppression. I'm kidding, I created this website to be able to create detailed guides, recommend games, and much more. At the moment of writing this I currently play Destiny 2 and Runescape.</p>
+
+            <p>If you enjoy detailed guides or in need of one, you can email me an idea at the following email address: <a href = "mailto: solomon.r.padilla@gmail.com">solomon.r.padilla@gmail.com</a></p>
+        </section>
+    </main>
+
+    <%= require('html-loader!./partial/footer.html') %>
+</body>
+</html>
