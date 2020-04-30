@@ -11,7 +11,7 @@
   "dependencies": {
     "handlebars": "^4.5.1",
     "handlebars-loader": "^1.7.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.1",
