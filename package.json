@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.5.1",
-    "handlebars-loader": "^1.7.1",
+    "handlebars-loader": "^1.7.3",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "file-loader": "^4.2.0",
     "glob-all": "^3.1.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "image-webpack-loader": "^6.0.0",
     "path": "^0.12.7",
     "postcss-loader": "^3.0.0",
@@ -28,7 +28,7 @@
     "purifycss-webpack": "^0.7.0",
     "style-loader": "^1.0.0",
     "uglifyjs-webpack-plugin": "^0.4.6",
-    "webpack": "^3.8.1",
+    "webpack": "^5.75.0",
     "webpack-bundle-tracker": "^0.4.3"
   }
 }
